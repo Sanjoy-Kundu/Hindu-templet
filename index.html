@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hindu templet website</title>
+	<link rel="stylesheet" href="style.css">
+	<!-- bootstrap css cdn link  -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<!--font awesome cdn-->
+	<script src="https://kit.fontawesome.com/4de5dd67f7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(240, 165, 138);">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+					<img class="rounded-circle" src="images/logo.jpg" alt="" width="40" height="40">
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Temples</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"> Join us</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"> Sign in</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"> Sign Up</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- carousel slider  -->
+		<section class="container">
+			<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="images/ma-tara.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="images/bisnu.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="images/mohadev.jpg" class="d-block w-100" alt="...">
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+					data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+					data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</section>
+		<!--button section-->
+		<section class="container mt-5">
+			<!--search section-->
+			<div class="d-flex justify-content-center align-items-center gy-2">
+				<input type="text" name="" placeholder="puja name, templet name...." class="form-control w-50">
+				<button class="btn btn-outline-primary">search</button>
+			</div>
+		</section>
+	</header>
+	<main>
+		<!-- templet section -->
+		<section class="container">
+			<h2>Temples</h2>
+			<p>Browse and visit the temple sites, book pujas, know more about them.</p>
+			<!--card-->
+			<div class="row row-cols-1 row-cols-md-3 row-cols-sm-1 g-4">
+				<!--first card-->
+				<div class="col">
+					<div class="card shadow p-3 mb-5 bg-body rounded">
+						<img src="images/Devi.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Bhagavati Templet</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col ">
+					<div class="card shadow p-3 mb-5 bg-body rounded">
+						<img src="images/bisnu.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Bishnu Templet</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card  shadow p-3 mb-5 bg-body rounded">
+						<img src="images/hanuman.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Hanuman Templet</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col ">
+					<div class="card shadow p-3 mb-5 bg-body rounded">
+						<img src="images/Shiva-11.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Shiva Templet</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col ">
+					<div class="card shadow p-3 mb-5 bg-body rounded">
+						<img src="images/Subrahmanian.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Bhagavati Templet</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col ">
+					<div class="card shadow p-3 mb-5 bg-body rounded">
+						<img src="images/defaultimage.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Parvati Templet</h5>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+		<!-- pujabli section  -->
+		<section class="container mt-5">
+			<h2>Pujavali</h2>
+			<p>Book puja in multiple temples in one go. Browse through our curated lists.</p>
+			<!--card-->
+			<div class="row row-cols-1 row-cols-md-4 row-cols-sm-2 g-4">
+				<div class="col">
+					<div class="card h-100">
+						<img src="images/1.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Health</h5>
+							<p class="card-text">Puja offered to deities to ward off ill health and get the strength to
+								overcome any serious health problems one might have.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img src="images/2.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Puspanjali</h5>
+							<p class="card-text">An offering of flowers to the deity. One of the most popular pujas, it
+								is considered as an auspicious way to start our day.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img src="images/3.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Education</h5>
+							<p class="card-text">Praying and doing offerings to Goddess Saraswati is considered
+								auspicious for studies and is very popular among students, parents and teachers.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img src="images/4.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Shatrusamhara</h5>
+							<p class="card-text">Shatrusamhara puja is helps devotees to identify the enemies within and
+								achieve the power to elimiinate it.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--Get a website for your Temple-->
+		<section class="container mt-5">
+			<h2 class="text-center">Get a website for your Temple</h2>
+			<div class="mt-4">
+				<div
+					class="row g-0 shadow p-3 mb-5 bg-body rounded row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-sm-2">
+					<div class="col-md-4">
+						<img src="images/hn.jpg" class="img-fluid rounded-start" alt="...">
+					</div>
+					<div class="col-md-8 d-flex justify-content-center align-items-center">
+						<div class="card-body">
+							<h5 class="card-title">Temples
+								Devaayanam provides easy to own and operate websites and mobile apps for Hindu temples
+								across the world </h5>
+							<hr>
+							<p class="card-text">Temples can signup here to get their own website</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--Policy-->
+		<section class="container">
+
+			<div class="row row-cols-1 row-cols-md-2 row-cols-sm-2">
+				<div class="col-md-6">
+					<h1>POLICIES</h1>
+					<div class="d-flex flex-column">
+						<h5>Terms and Conditions</h5>
+						<h5>Disclaimer</h5>
+						<h5>Privacy Policy</h5>
+						<h5>Cancellation & Refund Policy</h5>
+						<h5>Cookie Policy</h5>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<h1>CONTACTS</h1>
+					<div>
+						<p><img src="images/Sanjoy$$.jpg" alt="" class="h-25 w-25 rounded-circle"></p>
+						<small>Im Sanjoy</small> <br>
+						<i class="fas fa-envelope-square">sanjoukundu187@gmail.com</i>
+						<p>
+						<div>
+							<a href="https://web.facebook.com/swopnomoy.sanjoy.5"><i
+									class="fab fa-facebook fs-3"></i></a>
+							<a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin-in fs-3"></i></a>
+						</div>
+						<a href="#"><i class="fas fa-map-marker-alt"><span class="ms-2">Dhaka,
+									Bangaldesh</span></i></a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- bootstrap js cdn link  -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
